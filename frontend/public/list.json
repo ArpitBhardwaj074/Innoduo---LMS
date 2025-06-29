@@ -1,0 +1,72 @@
+[
+    {
+        "id":1,
+        "title":"HTML full course",
+        "price":0,
+        "category":"free",
+        "image":"https://img.freepik.com/free-photo/computer-program-coding-screen_53876-138060.jpg?ga=GA1.1.1331098770.1750675640&semt=ais_items_boosted&w=740"
+    },
+    {
+        "id":2,
+        "title":"CSS full course",
+        "price":100,
+        "category":"design",
+        "image":"https://img.freepik.com/free-photo/computer-program-coding-screen_53876-138060.jpg?ga=GA1.1.1331098770.1750675640&semt=ais_items_boosted&w=740"
+    },
+    {
+        "id":3,
+        "title":"JavaScript full course",
+        "price":0,
+        "category":"language",
+        "image":"https://img.freepik.com/free-photo/computer-program-coding-screen_53876-138060.jpg?ga=GA1.1.1331098770.1750675640&semt=ais_items_boosted&w=740"
+    },
+    {
+        "id":4,
+        "title":"Backend Development - NodeJS, ExpressJS, MongoDB",
+        "price":200,
+        "category":"nodejs expressjs mongodb",
+        "image":"https://img.freepik.com/free-photo/computer-program-coding-screen_53876-138060.jpg?ga=GA1.1.1331098770.1750675640&semt=ais_items_boosted&w=740"
+    },
+    {
+        "id":5,
+        "title":"Frontend Development - ReactJS, TailwindCSS",
+        "price":0,
+        "category":"free",
+        "image":"https://img.freepik.com/free-photo/computer-program-coding-screen_53876-138060.jpg?ga=GA1.1.1331098770.1750675640&semt=ais_items_boosted&w=740"
+    },
+    {
+        "id":6,
+        "title":"HTML full course",
+        "price":0,
+        "category":"free",
+        "image":"https://img.freepik.com/free-photo/computer-program-coding-screen_53876-138060.jpg?ga=GA1.1.1331098770.1750675640&semt=ais_items_boosted&w=740"
+    },
+    {
+        "id":7,
+        "title":"CSS full course",
+        "price":100,
+        "category":"design",
+        "image":"https://img.freepik.com/free-photo/computer-program-coding-screen_53876-138060.jpg?ga=GA1.1.1331098770.1750675640&semt=ais_items_boosted&w=740"
+    },
+    {
+        "id":8,
+        "title":"JavaScript full course",
+        "price":0,
+        "category":"language",
+        "image":"https://img.freepik.com/free-photo/computer-program-coding-screen_53876-138060.jpg?ga=GA1.1.1331098770.1750675640&semt=ais_items_boosted&w=740"
+    },
+    {
+        "id":9,
+        "title":"Backend Development - NodeJS, ExpressJS, MongoDB",
+        "price":200,
+        "category":"nodejs expressjs mongodb",
+        "image":"https://img.freepik.com/free-photo/computer-program-coding-screen_53876-138060.jpg?ga=GA1.1.1331098770.1750675640&semt=ais_items_boosted&w=740"
+    },
+    {
+        "id":10,
+        "title":"Frontend Development - ReactJS, TailwindCSS",
+        "price":0,
+        "category":"free",
+        "image":"https://img.freepik.com/free-photo/computer-program-coding-screen_53876-138060.jpg?ga=GA1.1.1331098770.1750675640&semt=ais_items_boosted&w=740"
+    }
+]
