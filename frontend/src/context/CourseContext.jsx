@@ -7,7 +7,7 @@ export const CourseContextProvider = ({ children }) => {
     const [courses, setCourses] = useState([])
     async function fetchCourses () {
         try {
-            const {data} = await axios.get(`http://localhost:5000/api/course/all`)
+            const {data} = await axios.get(`https://innoduo-lms-backend.onrender.com/api/course/all`)
 
             setCourses(data.courses)
         } catch (error) {
