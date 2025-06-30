@@ -14,7 +14,7 @@ export const UserContextProvider = ({ children }) => {
     setBtnLoading(true);
     try {
       const { data } = await axios.post(
-        `http://localhost:5000/api/user/login`,
+        `https://innoduo-lms-backend.onrender.com/api/user/login`,
         {
           email,
           password,
@@ -45,7 +45,7 @@ export const UserContextProvider = ({ children }) => {
     setBtnLoading(true);
     try {
       const { data } = await axios.post(
-        `http://localhost:5000/api/user/register`,
+        `https://innoduo-lms-backend.onrender.com/api/user/register`,
         {
           name,
           email,
@@ -68,7 +68,7 @@ export const UserContextProvider = ({ children }) => {
     const activationToken = localStorage.getItem("activationToken");
     try {
       const { data } = await axios.post(
-        `http://localhost:5000/api/user/verify`,
+        `https://innoduo-lms-backend.onrender.com/api/user/verify`,
         {
           otp,
           activationToken,
@@ -87,7 +87,7 @@ export const UserContextProvider = ({ children }) => {
 
   async function fetchUser() {
     try {
-      const { data } = await axios.get(`http://localhost:5000/api/user/me`, {
+      const { data } = await axios.get(`https://innoduo-lms-backend.onrender.com/api/user/me`, {
         headers: {
           token: localStorage.getItem("token"),
         },
